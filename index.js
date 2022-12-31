@@ -86,6 +86,6 @@ app.get("/posts/:postName", function (req, res) {
   });
 });
 
-app.listen(3000, function () {
-  console.log("Server started on port 3000");
+app.listen(5008, function () {
+  console.log("Server started on port 5008");
 });
